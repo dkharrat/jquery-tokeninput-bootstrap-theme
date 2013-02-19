@@ -1,0 +1,114 @@
+
+@tagBgColor: #eff2f7;
+@tagBorderColor: #b9c7ce;
+
+ul.token-input-list-bootstrap {
+  .uneditable-input;
+  .input-block-level;
+  overflow: hidden;
+  height: auto !important;
+  border: 1px solid @inputBorder;
+  cursor: text;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  list-style-type: none;
+}
+
+ul.token-input-list-bootstrap li input {
+  border: 0;
+  width: 100px;
+  padding: 3px 8px;
+  background-color: white;
+  margin: 2px 0;
+  -webkit-appearance: caret;
+}
+
+li.token-input-token-bootstrap {
+  overflow: hidden;
+  height: auto !important;
+  height: 15px;
+  margin: 3px;
+  padding: 1px 3px;
+  background-color: @tagBgColor;
+  color: #000;
+  cursor: default;
+  border: 1px solid @tagBorderColor;
+  font-size: 13px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  float: left;
+  white-space: nowrap;
+}
+
+li.token-input-token-bootstrap p {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+li.token-input-token-bootstrap span {
+  color: #a6b3cf;
+  margin-left: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li.token-input-selected-token-bootstrap {
+  background-color: darken(@tagBgColor, 5%);
+  border: 1px solid darken(@tagBorderColor, 5%);
+}
+
+li.token-input-input-token-bootstrap {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div.token-input-dropdown-bootstrap {
+  .dropdown-menu;
+  .typeahead;
+}
+
+div.token-input-dropdown-bootstrap p {
+  margin: 0;
+  padding: 5px;
+  color: @grayLight;
+}
+
+div.token-input-dropdown-bootstrap ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.token-input-dropdown-bootstrap ul li {
+  list-style-type: none;
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: @baseLineHeight;
+  color: @dropdownLinkColor;
+  white-space: nowrap;
+}
+
+div.token-input-dropdown-bootstrap ul li.token-input-dropdown-item-bootstrap {
+  background-color: @white;
+}
+
+div.token-input-dropdown-bootstrap ul li.token-input-dropdown-item2-bootstrap {
+  background-color: @white;
+}
+
+div.token-input-dropdown-bootstrap ul li em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+div.token-input-dropdown-bootstrap ul li.token-input-selected-dropdown-item-bootstrap {
+  color: @dropdownLinkColorHover;
+  background-color: @dropdownLinkBackgroundHover;
+  cursor: pointer;
+}
