@@ -2,9 +2,8 @@
 
 This repository contains a .less file that provides a [Boostrap](http://twitter.github.com/bootstrap/) theme for the [jQuery Tokeninput](http://loopj.com/jquery-tokeninput/) plug-in.
 
-## Screenshots
-<img src="http://i.imgur.com/M13DJ5Il.png" />
-<img src="http://i.imgur.com/DT1OkbBl.png" />
+## Screenshot
+<img src="http://i.imgur.com/DT1OkbB.png" width=525 />
 
 ## How to Use
 
