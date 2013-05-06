@@ -34,4 +34,11 @@ $(".token-input").tokenInput([
         animateDropdown: false
     });
 ```
+## Contributing
+Want to improve something or fix a bug? Pull requests are welcome!
 
+## Contact
+* [Dia Kharrat](https://github.com/dkharrat/) (author)
+
+## License
+Copyright © 2013 Dia Kharrat, released under the MIT license.
