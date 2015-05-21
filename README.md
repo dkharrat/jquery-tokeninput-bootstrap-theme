@@ -7,10 +7,10 @@ This repository contains a [Boostrap](http://twitter.github.com/bootstrap/) them
 
 ## How to Use
 For Bootstrap 3 (scss), use `token-input-bootstrap3.css.scss`.
-For Bootstrap 2 (less), use `token-input-bootstrap.less`.
+For Bootstrap 2 (less), use `token-input-bootstrap2.less`.
 
 1. Copy your chosen file to your app assets directory. If you're using Rails, it would go under `vendor/assets/stylesheets`
-2. In your app's master less/sass file, import `token-input-bootstrap`:
+2. In your app's master less/sass file, import `token-input-bootstrap3` or `token-input-bootstrap2`:
 3. Enable the plug-in on an input field, with the `theme` option set to `bootstrap`
 
 ### Customize
